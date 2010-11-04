@@ -27,9 +27,9 @@
 									<div id='logo_decoration'></div>
 									<div id='logo_desc'>$Heading[Description] <span style='font-size: 18pt'>\"</span></div>
 									<div class='clear'></div>
-									<div id='MenuHolder'>
+									<nav id='MenuHolder'>
 										$Menu
-									</div>
+									</nav>
 								</div>
 								
 								<div id='pageBody'>
