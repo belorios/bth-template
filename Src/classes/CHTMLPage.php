@@ -100,7 +100,7 @@
 			if (substr(array_search($this->layout, $this->layoutTypes), 0, 4) == "1col") 
 				$sideBox = null;
 			
-			$aBody = html_Body($errorMsg . $aBody);
+			$aBody = html_Body($errorMsg . $aBody, $sideBoxFloat);
 			
 			$this->Body = "
 				$sideBox

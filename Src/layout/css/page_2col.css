@@ -1,10 +1,17 @@
 #pageBody_Content_Big {
-	width: 680px;
-	float: left;
 }
+
+	.content_float_left {
+		border-left: 225px solid #f3f3f3;
+	}
+	
+	.content_float_right {
+		border-right: 225px solid #f3f3f3;
+	}
 
 #pageBody_Content_Sidebox {
 	width: 220px;
+	height: auto;
 	margin: -15px 0px 0px 0px;
 	padding: 0;
 }

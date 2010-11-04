@@ -39,8 +39,8 @@
 		";
 	}
 	
-	function html_Body($body) {
-		return "<div id='pageBody_Content_Big'>$body</div>";
+	function html_Body($body, $float) {
+		return "<div id='pageBody_Content_Big' class='content_float_$float'>$body</div>";
 	}
 	
 	function sidebox_Login() {
