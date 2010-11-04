@@ -174,7 +174,7 @@
 				</div>
 			";
 
-       		return $html;  
+       		return loginMenu($html);  
 		}
 		
 		private function getErrorMessage() {

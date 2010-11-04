@@ -5,7 +5,8 @@
 
 #pageBody_Content_Sidebox {
 	width: 220px;
-	margin: 0px 0px 0px 0px;
+	margin: -15px 0px 0px 0px;
+	padding: 0;
 }
 
 

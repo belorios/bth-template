@@ -1,6 +1,6 @@
 <?php
     
-	function html_layout($Title, $Heading, $Menu, $Body, $Footer, $Charset='UTF-8', $extra=false, $StyleSheets=false, $JavaScript=false, $MetaTags=false) {
+	function html_layout($Title, $Heading, $Menu, $Body, $Footer, $Charset='UTF-8', $login=false, $StyleSheets=false, $JavaScript=false, $MetaTags=false) {
 		
 		return "
 			
@@ -31,25 +31,26 @@
 										$Menu
 									</nav>
 								</div>
-								
+								$login
 								<div id='pageBody'>
 									<div id='pageBody_Top'>
-										<div style='float:left'>
-											$extra
-										</div>
-										<div style='float:right'>
+										
+									</div>
+									<div id='pageBody_Content'>
+								
+										$Body
+										<div class='clear'></div>
+										
+										
+									</div>
+									<div id='pageBody_Footer'>
+										<div style='float:right;'>
 											<a href='".PATH_SITE."/andrastil/lila'><img src='".PATH_SITE_LAYOUT."images/buttons/xtra.gif' title='Extra stor storlek på text'  /></a>
 											<a href='".PATH_SITE."/andrastil/enkolumn'><img src='".PATH_SITE_LAYOUT."images/buttons/twocol.gif' title='Två kolumns layout'  /></a>
 											<a href='".PATH_SITE."/andrastil/tvakolumn'><img src='".PATH_SITE_LAYOUT."images/buttons/onecol.gif' title='En kolumns layout'  /></a>
 										</div>
-									</div>
-									<div id='pageBody_Content'>
-										$Body
-										<div class='clear'></div>
-										
 										<div class='clear'></div>
 									</div>
-									<div id='pageBody_Footer'></div>
 								</div>
 								<div id='FooterInfo'>
 									<div id='FooterInfo_Left'>

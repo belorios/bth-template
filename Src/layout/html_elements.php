@@ -91,3 +91,12 @@
 			
 		";
 	}
+	
+	function loginMenu($objects) {
+		return "
+			<div id='loginBox'>
+				$objects
+			</div>
+			<div class='clear'></div>
+		";		
+	}

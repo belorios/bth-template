@@ -28,6 +28,11 @@ a:hover {
 	text-decoration: underline;
 }
 
+h1 {
+	padding: 0;
+	margin: 0;
+}
+
 .clear {
 	clear:both;
 }
@@ -51,6 +56,7 @@ a:hover {
 	height: 130px;
 	background: #2E5480; 
 	color: #DAE3ED;
+	margin: 0px 0px 5px 0px;
 	border: solid;
 	border-width: 0px 3px 3px 3px;
 	-moz-border-radius-bottomleft:  5px 5px;
@@ -121,7 +127,7 @@ a:hover {
 			}
 
 #pageBody {
-	margin: 10px 0px 0px 0px;
+	margin: 5px 0px 0px 0px;
 	height: auto;
 	background: #f3f3f3;
 	border: 3px solid #3D6491;
@@ -141,7 +147,7 @@ a:hover {
 }	
 			
 #pageBody_Footer {
-	height: 5px;
+	min-height: 5px;
 	padding: 0px 5px 0px 5px;
 }
 
@@ -162,4 +168,12 @@ a:hover {
 	#FooterInfo_Right {
 		float: right;
 	}
-		
+	
+#loginBox {
+	color: #e1e7ef;
+	float:right; 
+	margin: 0px 10px 0px 0px; 
+}
+	#loginBox a{
+		color: #e1e7ef;
+	}	
